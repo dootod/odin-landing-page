@@ -1,0 +1,110 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* body general properties */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", serif;
+}
+
+/* header */
+
+.header {
+    font-family: "JetBrains Mono", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 0px;
+    background-color: #4ea362;
+}
+
+.logo {
+    width: 70px;
+}
+
+.header li {
+    display: flex;
+    padding-right: 36px;
+}
+
+.header ul {
+    display: flex;
+    font-size: 24px;
+    list-style: none;
+    gap: 48px;
+    border: 2px solid #363636;
+}
+
+.header a {
+    text-decoration: none;
+    color: #363636;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.header a:hover {
+    background-color: #3a9c54;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* Content 1  */
+
+.content-1 {
+    display: flex;
+    padding-right: 100px;
+    background-color: #4ea362;
+    color: #363636;
+}
+
+.content-1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 100px;
+}
+
+.content-1-img {
+    width: 25%;
+    border-radius: 10px;
+    border: 5px solid #363636;
+    margin: 50px 0px;
+}
+
+.content-1-1 .login-button {
+    font-family: "JetBrains Mono", serif;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #29cdff;
+    margin: 20px 0px;
+}
+
+.content-1-1 .login-button:hover {
+    opacity: 60%;
+    transition: 0.3s;
+}
+
+.content-1-1 .title {
+    font-family: "JetBrains Mono", serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* Content 2 */
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-img {
+    width: 15%;
+}
