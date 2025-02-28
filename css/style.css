@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 
 /* body general properties */
 
@@ -58,7 +59,7 @@ body {
 
 .content-1 {
     display: flex;
-    padding-right: 100px;
+    padding: 50px 100px 80px 0;
     background-color: #4ea362;
     color: #363636;
 }
@@ -72,24 +73,29 @@ body {
 }
 
 .content-1-img {
-    width: 25%;
+    width: 100%;
+    max-width: 550px;
     border-radius: 10px;
-    border: 5px solid #363636;
+    border: 2px solid black;
     margin: 50px 0px;
 }
 
 .content-1-1 .login-button {
     font-family: "JetBrains Mono", serif;
+    font-weight: 700;
+    font-size: 16px;
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
     background-color: #29cdff;
     margin: 20px 0px;
+    width: 200px;
 }
 
 .content-1-1 .login-button:hover {
     opacity: 60%;
     transition: 0.3s;
+    text-decoration: underline;
 }
 
 .content-1-1 .title {
@@ -103,8 +109,43 @@ body {
 .content-2 {
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.content-2 .product-title {
+    font-family: "JetBrains Mono", serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding: 55px 0 25px 0;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
 }
 
 .product-img {
-    width: 15%;
+    width: 100%;
+    max-width: 300px; 
+    border-radius: 8px;
+    border: 2px solid black;
 }
+
+.product-container .product-desc {
+    font-family: "Jersey 15", serif;
+    font-size: 25px;
+}
+
+/* Content 3 */
+
