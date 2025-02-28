@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* body general properties */
 
@@ -88,6 +89,7 @@ body {
     padding: 8px 16px;
     border-radius: 8px;
     background-color: #29cdff;
+    border: 2px solid black;
     margin: 20px 0px;
     width: 200px;
 }
@@ -110,6 +112,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+    background-color: white;
 }
 
 .content-2 .product-title {
@@ -149,3 +152,74 @@ body {
 
 /* Content 3 */
 
+.content-3 {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kanit", serif;
+    font-size: 20px;
+}
+
+.content-3 .avis-client {
+    font-style: italic;
+    text-align: justify;
+}
+
+.content-3 .auteur-avis {
+    text-align: right;
+}
+
+/* Content 4 */
+
+.content-4 {
+    background-color: white;
+    color: white;
+    padding: 80px;
+}
+
+.content-4 .cta {
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.cta .subscribe-button {
+    font-family: "JetBrains Mono", serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin: 20px 0px;
+    width: 200px;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta .subscribe-button:hover {
+    opacity: 60%;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.cta .cta-bis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.cta .subscribe-title {
+    font-family: "Jersey 15", serif;
+    font-size: 34px;
+}
+
+.cta .subscribe-p {
+    font-family: "Jersey 15", serif;
+    font-size: 20px;
+    text-align: center;
+}
