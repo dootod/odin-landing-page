@@ -223,3 +223,25 @@ body {
     font-size: 20px;
     text-align: center;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    opacity: 60%;
+    transition: 0.3s;
+}
